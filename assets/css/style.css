@@ -1,0 +1,51 @@
+.rangeTo,
+.rangeFrom,
+.color {
+	width: 45px;
+	background-color: #FFF;
+	color: #f6931f;
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid #c5c5c5;
+}
+
+.color {
+	width: 85px;
+	padding: 5px;
+}
+
+.ui-state-default.ui-corner-all {
+	width: 115%;
+}
+
+#rangesForm {
+	width: 115%;
+}
+
+.ui-slider-vertical {
+	width: 1em !important;
+}
+
+.ui-slider-vertical .ui-slider-handle {
+	
+	left: -0.05em !important;
+}
+
+.slider-holder {
+	text-align: center;
+}
+
+.slider-range {
+	height: 250px;
+	margin: 0px auto;
+}
+
+.alert-message {
+	color: red;
+	font-weight: bold;
+}
+
+.success-message {
+	color: green;
+	font-weight: bold;
+}
