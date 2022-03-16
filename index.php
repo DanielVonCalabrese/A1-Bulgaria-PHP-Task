@@ -1,16 +1,10 @@
 <?php
 
-// TODO
-//error_reporting(0);
-
 require_once "app/Connection.php";
 require_once "app/NumericRanges.model.php";
 
 use TestTaskA1\Connection as Connection;
 use TestTaskA1\NumericRanges as NumericRanges;
- 
-// TODO
-libxml_use_internal_errors(true);
 
 define( "COLORS", [ 'red', 'blue', 'green' ] );
 
@@ -68,8 +62,6 @@ $items = $numericRangesModel->getAllItems();
 			</div>
 		</nav>
         <div class="container my-5">
-			// TODO
-			<?php //echo urldecode('a%3A6%3A%7Bs%3A6%3A%22Enable%22%3Bs%3A1%3A%221%22%3Bs%3A14%3A%22ConnectionType%22%3Bs%3A13%3A%22PPPoe_Bridged%22%3Bs%3A4%3A%22Name%22%3Bs%3A7%3A%22Zadacha%22%3Bs%3A17%3A%22X_COM_ServiceList%22%3Bs%3A8%3A%22INTERNET%22%3Bs%3A16%3A%22X_COM_VLANEnable%22%3Bs%3A1%3A%221%22%3Bs%3A12%3A%22X_COM_VLANID%22%3Bs%3A3%3A%22555%22%3B%7D'); ?>
 			<div class="row">
 				<h1 class="mt-5"><?php echo $tableTitle; ?></h1>	
 				<?php if (count($items) > 0): ?>
